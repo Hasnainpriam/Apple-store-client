@@ -27,7 +27,7 @@ const Blog = () => {
 
                                     JavaScript is a type of scripting language. JS is the most common abbreviation. Javascript might be considered an updated version of the ECMA script. Javascript is a high-level programming language that is built on prototype inheritance and employs the Oops notion.</p>
                                 <Link to='/' className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
                                 </Link>
@@ -59,7 +59,7 @@ const Blog = () => {
 
                                     MongoDB is a database management system. MongoDB is used by code within an application or server to save, query, and update data in a database. Many web servers developed with Node.js will store data in MongoDB.</p>
                                 <Link to='/' className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <svg fill="none" stroke="currentColor" strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
                                 </Link>
@@ -88,7 +88,10 @@ const Blog = () => {
                             <div className="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
                                 <p className="leading-relaxed text-lg mb-4">The issuer typically signs the JWT using a private key, or secret. The receiver of the JWT will check the signature to make sure the token hasn't been tampered with after the issuer signed it. Unauthenticated sources will have a hard time guessing the signing key and attempting to modify the claims within the JWT..However, not all signature algorithms are made equal. Some signature techniques, for example, use a secret value shared between the issuer and the party who verifies the JWT. A public and private key is used in other algorithms. The issuer has access to the private key, but the public key can be shared freely. Only the private key can be used to create the signature; the public key can only be used to validate it. Because the private key only needs to exist in one location, it is more secure than a shared secret.</p>
                                 <Link to='/' className="text-indigo-500 inline-flex items-center">Learn More
-                                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
+                                    <svg fill="none" stroke="currentColor" 
+                                    strokeLinecap="round" 
+                                    strokeLinejoin="round" 
+                                    strokeWidth="2" className="w-4 h-4 ml-2" viewBox="0 0 24 24">
                                         <path d="M5 12h14M12 5l7 7-7 7"></path>
                                     </svg>
                                 </Link>
